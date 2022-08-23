@@ -1,0 +1,28 @@
+:root {
+  font-family: sans-serif;
+  font-size: calc(1em + 5vmin);
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.free {
+  margin: auto;
+}
+
+.numb {
+  line-height: 1;
+  font-size: 5rem;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
